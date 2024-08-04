@@ -1,0 +1,6 @@
+# Odd or even using if-else 
+echo -n "Enter a non-zero number : " readnum 
+rem=`expr $num % 2` if [ $rem -eq 0 ] 
+then 
+echo "$num is Even" else 
+echo "$num is Odd" fi
